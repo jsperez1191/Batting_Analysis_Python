@@ -72,7 +72,7 @@ league_avg_hr = (
 league_avg_hr = league_avg_hr[league_avg_hr.index >= 2005]
 print(league_avg_hr)
 
-# plotting results league average vs nationals homeruns per year
+# plotting results league average vs dodgers homeruns per year
 plt.plot(
     league_avg_hr.index,
     league_avg_hr.values,
